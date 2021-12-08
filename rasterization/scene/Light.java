@@ -1,10 +1,7 @@
 package rasterization.scene;
 
 import rasterization.Config;
-import rasterization.utils.Camera;
-import rasterization.utils.Color;
-import rasterization.utils.Pixel;
-import rasterization.utils.Vector;
+import rasterization.utils.*;
 
 public class Light {
     public Vector location = new Vector(0, 0, 0);

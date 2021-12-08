@@ -1,11 +1,10 @@
 package rasterization.scene;
 
 import java.util.List;
+import java.util.ArrayList;
 
 import rasterization.utils.Pixel;
 import rasterization.utils.Vector;
-
-import java.util.ArrayList;
 
 public class Vertex extends Vector {
     public List<Triangle> triangles = new ArrayList<>();

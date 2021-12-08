@@ -1,14 +1,12 @@
 package rasterization.scene;
 
-import java.util.Iterator;
+import java.util.Collections;
 import java.util.List;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 import rasterization.noise.Noise;
 import rasterization.utils.Matrix;
-
-import java.util.ArrayList;
-import java.util.Collections;
-
 
 public class TriangleMesh {
     public Material material;

@@ -1,15 +1,14 @@
 package rasterization.scene;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import java.awt.image.BufferedImage;
+
 import rasterization.Config;
 import rasterization.utils.Camera;
 import rasterization.utils.Color;
-
-import java.awt.image.BufferedImage;
 
 public class Scene {
     public static Camera camera;
